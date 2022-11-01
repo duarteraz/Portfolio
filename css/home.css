@@ -36,3 +36,221 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+@media (max-width: 960px) {
+    header {
+        font-weight: 700;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.25rem;
+        font-weight: 700;
+    }
+
+    .menu {
+        transform: translate(-10%, 30%);
+        gap: 32px;
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        transform: translate(10%, 0%);
+    }
+
+    .section-title {
+        grid-area: title;
+        font-size: 120px;
+        text-align: center;
+        background-image: linear-gradient(#666, #000);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    h2.section-title {
+        font-size: 120px;
+        text-align: center;
+        gap: 32px
+    }
+
+    h3.description__title {
+        transform: translate(10%, -100%);
+        font-size: 48px;
+    }
+
+    p.description__text {
+        transform: translate(10%, -20%);
+        font-size: 24px;
+    }
+
+    h3.skills__title {
+        transform: translate(-5%, -100%);
+        font-size: 48px;
+
+    }
+
+    ul.skills__icons {
+        transform: translate(-10%, -24%);
+        width: 75%;
+        height: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    li.skills__icon i {
+        font-size: 2.5rem;
+    }
+
+    li.skills__icon span {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    h2.section-projetos {
+        transform: translate(-0%, 0%);
+        font-size: 120px;
+        text-align: center;
+        gap: 32px
+    }
+
+    ul.card-container {
+        transform: translate(-0%, -5%);
+        width: -100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    h2.section-contato {
+        transform: translate(-0%, 40%);
+        font-size: 100px;
+        text-align: center;
+        gap: 32px
+    }
+
+    ul.social-container {
+        transform: translate(-40%, -300%);
+    }
+
+    ul.contato__container {
+        transform: translate(20%, -0%);
+        font-size: 24px;
+
+    }
+
+    ul.links-container {
+        transform: translate(-80%, -0%);
+        font-size: 24px;
+    }
+}
+
+/* CELULAR*/
+@media (max-width: 640px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        transform: translate(50%, 120%);
+        gap: 32px;
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .section-title {
+        grid-area: title;
+        font-size: 120px;
+        text-align: center;
+        background-image: linear-gradient(#666, #000);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    h2.section-title {
+        font-size: 100px;
+        text-align: center;
+        gap: 32px
+    }
+
+    h3.description__title {
+        transform: translate(5%, -180%);
+        font-size: 24px;
+    }
+
+    p.description__text {
+        transform: translate(5%, -20%);
+        font-size: 16px;
+    }
+
+    h3.skills__title {
+        transform: translate(-20%, -180%);
+        font-size: 24px;
+
+    }
+
+    ul.skills__icons {
+        transform: translate(-30%, -20%);
+        width: 75%;
+        height: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    li.skills__icon i {
+        font-size: 1.5rem;
+    }
+
+    li.skills__icon span {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    h2.section-projetos {
+        transform: translate(-0%, 20%);
+        font-size: 100px;
+        text-align: center;
+        gap: 32px
+    }
+
+    ul.card-container {
+        transform: translate(-0%, -10%);
+        width: -100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    h2.section-contato {
+        transform: translate(-0%, 0%);
+        font-size: 100px;
+        text-align: center;
+        gap: 32px
+    }
+
+    ul.social-container {
+        transform: translate(-20%, -350%);
+    }
+
+    ul.contato__container {
+        transform: translate(20%, -0%);
+
+    }
+
+    ul.links-container {
+        transform: translate(-80%, -0%);
+    }
+}

@@ -1,12 +1,28 @@
 .contatos {
+    width: 100%;
     max-width: 1200px;
     display: grid;
     grid-template-areas:
     "title title title" 
     "contato social link";
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:auto 1fr;
     align-items: center;
+    justify-content: space-between;
+}
+
+.section-contato{
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    background-image: linear-gradient(#666, #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contato__title{
+    font-size: 1.5rem;
 }
 
 .contato-container {
@@ -22,7 +38,7 @@
 
 .contato-item {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .contato-item_icon {
@@ -57,6 +73,10 @@
     gap: 16px;
     text-align: right;
 }
-.link-container h3 {
+.link-container Contato {
+    font-size: 1.5rem;
+}
+
+.links-title{
     font-size: 1.5rem;
 }
